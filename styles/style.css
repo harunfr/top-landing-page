@@ -1,1 +1,89 @@
 /* border: 2px solid black; */
+
+/*page layout. inside body; header, introduction, main, footer*/
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  /* align-items: center; */
+  /* height: 100vh; */
+
+}
+
+header, .introduction, main, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed red;
+  margin-bottom: 3px;
+  flex: 1 1 auto
+}
+header {
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  padding-right: 35px;
+}
+.introduction{
+  padding: 0 100px;
+}
+.introduction-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.introduction-image{
+  border: 2px solid black;
+  padding: 50px;
+  margin-left: 40px;
+}
+
+main {
+  flex-direction: column;
+}
+
+.info-images {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  border: 3px solid pink;
+}
+
+.info-image-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  
+}
+
+.info-image {
+  border: 2px solid black;
+  padding: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.info-text {
+  width: 120px;
+  margin-top: 15px;
+}
+
+.quote, .invitation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 300px;
+}
