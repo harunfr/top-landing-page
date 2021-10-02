@@ -1,71 +1,64 @@
 /* border: 2px solid black; */
 
 /*page layout. inside body; header, introduction, main, footer*/
-body {
-  display: flex;
-  flex-direction: column;
-  /* justify-content:center; */
-  /* align-items: center; */
-  /* height: 100vh; */
 
-}
-
-header, .introduction, main, footer{
+/* display:flex, just... align... are everywhere */
+header,
+.introduction,
+main,
+footer,
+.links,
+.introduction-text,
+.info-images,
+.info-image-text,
+.quote,
+.invitation {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body,
+main,
+.introduction-text,
+.info-image-text,
+.quote,
+.invitation {
+  flex-direction: column;
+}
+
+header,
+.introduction,
+main,
+footer {
   border: 1px dashed red;
   margin-bottom: 3px;
-  flex: 1 1 auto
+  flex: 1 1 auto;
 }
 header {
   justify-content: space-between;
 }
-.links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .link {
   padding-right: 35px;
 }
-.introduction{
+.introduction {
   padding: 0 100px;
 }
-.introduction-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
 
-.introduction-image{
+.introduction-image {
   border: 2px solid black;
   padding: 50px;
   margin-left: 40px;
 }
 
-main {
-  flex-direction: column;
-}
-
 .info-images {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
   flex-wrap: nowrap;
   width: 100%;
   border: 3px solid pink;
 }
 
-.info-image-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.info-image-text {
   width: 200px;
-  
 }
 
 .info-image {
@@ -80,10 +73,7 @@ main {
   margin-top: 15px;
 }
 
-.quote, .invitation {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.quote,
+.invitation {
   margin: 20px 300px;
 }
