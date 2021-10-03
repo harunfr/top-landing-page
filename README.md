@@ -8,4 +8,4 @@ here is [live](https://harunfr.github.io/top-landing-page/) version.
 * css flexbox properties, how to align child items
 * how to use google fonts
 
-[See](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) project idea.
+[See](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) the project idea.
