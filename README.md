@@ -1,5 +1,7 @@
 # top-landing-page
 
+This is an only css/html generic page no additional library used.
+This page is created to learn basics of layout and styling.
 here is [live](https://harunfr.github.io/top-landing-page/) version.
 
  key take aways:
@@ -10,3 +12,7 @@ here is [live](https://harunfr.github.io/top-landing-page/) version.
 * how to use google fonts
 
 [See](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) the project idea.
+
+refactor: needed,
+iteration: 0, this is first time making this page.
+branches: 0.
