@@ -13,6 +13,6 @@ here is [live](https://harunfr.github.io/top-landing-page/) version.
 
 [See](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page) the project idea.
 
-*refactor: needed,
-*iteration: 0, this is first time making this page.
-*branches: 0.
+* refactor: needed,
+* iteration: 0, this is first time making this page.
+* branches: 0.
