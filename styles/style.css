@@ -3,6 +3,8 @@
 /*page layout. inside body; header, introduction, main, footer*/
 
 /* display:flex, just... align... are everywhere */
+
+/* Layout start */
 header,
 .introduction,
 main,
@@ -30,12 +32,16 @@ header,
 .introduction,
 main,
 footer {
-  border: 1px dashed red;
-  margin-bottom: 3px;
+  /* border: 1px dashed red; */
   flex: 1 1 auto;
 }
 header {
   justify-content: space-between;
+  height: 70px;
+  /* border: 2px solid white; */
+}
+.logo {
+  margin-left: 30px;
 }
 
 .link {
@@ -45,16 +51,21 @@ header {
   padding: 0 100px;
 }
 
+/* header, .introduction {
+  margin: 0 100px;
+} */
+
 .introduction-image {
   border: 2px solid black;
   padding: 50px;
   margin-left: 40px;
+  background-color: rgb(16, 124, 143);
 }
 
 .info-images {
   flex-wrap: nowrap;
   width: 100%;
-  border: 3px solid pink;
+  /* border: 3px solid pink; */
 }
 
 .info-image-text {
@@ -62,7 +73,7 @@ header {
 }
 
 .info-image {
-  border: 2px solid black;
+  border: 2px solid blue;
   padding: 40px;
   width: 40px;
   height: 40px;
@@ -70,10 +81,62 @@ header {
 
 .info-text {
   width: 120px;
-  margin-top: 15px;
+  margin-top: 5px;
+}
+.info-title{
+  margin:  50px 0;
 }
 
 .quote,
 .invitation {
   margin: 20px 300px;
 }
+
+  /* Layout end */
+
+  /* Style start */
+header, .introduction {
+  background-color: #1F2937 ;
+  color: #F9FAF8;
+}
+.sign-up {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border-style: none;
+  padding: 6px;
+  width: 80px;
+  font-weight: 700;
+}
+.bottom {
+  border: 1px solid #F9FAF8;
+}
+.info-image{
+  border-radius: 25px;
+}
+
+.info-title{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  width: 100%;
+}
+
+.quote-text{
+  padding: 100px 400px 0 400px;
+}
+.author {
+  margin: 10px 0 50px 340px;
+  text-align: end;
+  /* border: 2px solid pink; */
+  font-weight: 800;
+}
+
+.invitation{
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+  /* Style end */
